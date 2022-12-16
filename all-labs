@@ -9,4 +9,37 @@ deploy-microservicesapp  native-build             tolerance-health
 deploy-openshift         native-container         tolerance-policies
 deploy-review            secure-jwt               tolerance-review
 deploy-service           secure-review            
-implement-persist        secure-tls         
+implement-persist        secure-tls    
+
+
+
+
+lab apps-connect             start 
+lab apps-feature             start 
+lab apps-inject              start 
+lab apps-review              start 
+lab comprehensive-review     start 
+lab deploy-microservicesapp  start 
+lab deploy-openshift         start 
+lab deploy-review            start 
+lab deploy-service           start 
+lab implement-persist        start 
+lab implement-rest   start 
+lab implement-review start 
+lab monitor-metrics  start 
+lab monitor-review   start 
+lab monitor-trace    start 
+lab native-build     start 
+lab native-container start 
+lab secure-jwt       start 
+lab secure-review    start 
+lab secure-tls       start 
+lab start-credentials  start 
+lab test  start 
+lab test-junit  start 
+lab test-mock  start 
+lab test-review start 
+lab tolerance-health start 
+lab tolerance-policies start 
+lab tolerance-review start  
+
