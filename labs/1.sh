@@ -4,7 +4,7 @@ filename="$1"
 while read -r line; do
  name="$line"
  echo "Setting lab $name"
- lab $name start
+ echo "lab $name start"
  echo "Lab Setup Done"
  echo " copying lab files to git dir"
  cp  -r /home/student/DO378/labs/$name ./labs/$name
