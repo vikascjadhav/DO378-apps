@@ -1,1 +1,1 @@
-app-connect
+apps-connect
