@@ -1,10 +1,28 @@
-apps-connect             implement-rest           start-credentials
-apps-feature             implement-review         test
-apps-inject              monitor-metrics          test-junit
-apps-review              monitor-review           test-mock
-comprehensive-review     monitor-trace            test-review
-deploy-microservicesapp  native-build             tolerance-health
-deploy-openshift         native-container         tolerance-policies
-deploy-review            secure-jwt               tolerance-review
-deploy-service           secure-review            
-implement-persist        secure-tls             
+apps-connect
+apps-feature
+apps-inject
+apps-review
+comprehensive-review
+deploy-microservicesapp
+deploy-openshift
+deploy-review
+deploy-service
+implement-persist
+implement-rest
+implement-review
+monitor-metrics
+monitor-review
+monitor-trace
+native-build
+native-container
+secure-jwt
+secure-review
+secure-tls
+start-credentials
+test
+test-junit
+test-mock
+test-review
+tolerance-health
+tolerance-policies
+tolerance-review
